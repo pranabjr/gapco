@@ -144,12 +144,34 @@ section.success a.active {
 }
 
 section p{
-    font-size: 1em;
+    font-size: 125%;
 }
 .text-justify {
   text-align: justify;
 }
 
 blockquote footer{
-    margin-top: 0; 
+    margin-top: 0;
+    color: white;
+}
+
+.label{
+    color: #33cc66;
+      background: whitesmoke;
+      border-radius: 50px;
+     border-color: darkgrey;
+     border-style: solid;
+    border-width: 0.5px;
+    
+}
+
+.round_pic{
+    border-radius: 1px 30px 1px;
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 0.5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
