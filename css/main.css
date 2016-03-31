@@ -129,16 +129,36 @@ section h2 {
     font-family: 'Karla', sans-serif;
 }
 
-section.success {
+section.shade1 {
     color: #fff;
     background: #18bc9c;
+    border-bottom: #000;
+    border-bottom-style:solid;
+    border-bottom-color: antiquewhite;
 }
 
-section.success a,
-section.success a:hover,
-section.success a:focus,
-section.success a:active,
-section.success a.active {
+section.shade1 a,
+section.shade1 a:hover,
+section.shade1 a:focus,
+section.shade1 a:active,
+section.shade1 a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+
+section.shade2 {
+    color: #fff;
+    background:#67818a;
+    border-bottom: #000;
+    border-bottom-style:inset;
+    border-bottom-color:cornsilk;
+}
+
+section.shade2 a,
+section.shade2 a:hover,
+section.shade2 a:focus,
+section.shade2 a:active,
+section.shade2 a.active {
     outline: 0;
     color: #2c3e50;
 }
