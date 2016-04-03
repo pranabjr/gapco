@@ -195,3 +195,24 @@ blockquote footer{
     margin-right: auto;
 
 }
+
+hr{
+    
+    width: 50%;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.media{
+    padding: 30px 30px;
+}
+
+.media-body > h2{
+    color: #33cc66;
+    background: whitesmoke;
+    border-radius: 50px;
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 0.5px;
+    font-size: 120%;
+}

@@ -19,3 +19,7 @@ $(".nav a").on("click", function(){
    $(".nav").find(".active").removeClass("active");
    $(this).parent().addClass("active");
 });
+
+$('.carousel').carousel({
+        interval: 3000 //changes the speed
+    })

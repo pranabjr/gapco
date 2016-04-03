@@ -7,7 +7,7 @@ angular.module('gapco')
 
             //var promotion= menuFactory.getPromotion(parseInt($stateParams.id,10));
             
-            $scope.portf = portf;
+            //$scope.portf = portf;
 
             //$scope.ftDish = [];
 
