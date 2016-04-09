@@ -20,6 +20,7 @@ angular.module('gapco', ['ui.router','ngResource'])
                     },
                     'services': {
                         templateUrl : 'views/services.html',
+                        controller  : 'PortfController'
                     },
                     'contactus': {
                         templateUrl : 'views/contactus.html',

@@ -4,6 +4,7 @@ angular.module('gapco')
 .controller('PortfController',['$scope','PortfService',function($scope, PortfService){
 
             $scope.portf= PortfService.getPFs();
+            $scope.serv= PortfService.getServs();
 
             //var promotion= menuFactory.getPromotion(parseInt($stateParams.id,10));
             
