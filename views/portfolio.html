@@ -8,23 +8,27 @@
                 </div>
             </div>
             
+            <div class="row">
+                <div class="col-lg-12 text-center">
             <div class="media" ng-repeat="pf in portf">
                 <div class="media-left media-middle">
                     <a href="#">
-                        <img class="media-object img-responsive" ng-src={{pf.logo}} alt="client logo" width="150" height="100">
+                        <img class="media-object img-thumbnail" ng-src={{pf.logo}} alt="client logo" width="150" height="100">
                     </a>
                 </div>
             
             <div class="media-body media-middle">
-                <h2 class="media-heading label">{{pf.name}}</h2><br><br>
+                <h2 class="media-heading">{{pf.name}}</h2><br>
                     <p class="text-justify">{{pf.description}}</p>
             </div>
             
             <div class="media-right media-middle">
                     <a href="#">
-                        <img class="media-object img-responsive" ng-src={{pf.image}} alt="weppage snippet" width="250" height="200">
+                        <img class="media-object img-thumbnail" ng-src={{pf.image}} alt="weppage snippet" width="250" height="200">
                     </a>
                 </div>
+            </div>
+                    </div>
             </div>
             
             
