@@ -223,6 +223,31 @@ hr{
     
 }
 
+
+.well{
+    background: floralwhite;
+    color:black;
+    
+}
+
+
+/*FORM STYLES*/
+
+.form-style{
+    max-width:400px;
+    margin:10px 40px;
+    background: whitesmoke;
+    border-radius:30px;
+    padding:20px;
+    font-family: Karla, "Times New Roman", Times, serif;
+    color: #33cc66;
+    border-color: #33cc66;
+    border-style: double;
+}
+
+
+
+
 /* Grow Rotate */
 .hvr-grow-rotate {
   display: inline-block;
