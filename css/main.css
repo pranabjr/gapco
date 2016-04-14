@@ -57,6 +57,7 @@ text-shadow: 2px 2px 5px #33cc66;
     border-style: solid;
     border-width: 0.5px; 
     outline: none;
+    
 }
 
 .navbar .navbar-nav > .active > a, 
@@ -111,6 +112,7 @@ text-shadow: 2px 2px 5px #33cc66;
 
 .container{
     width: 100%;
+    
 }
 
 .panel-title{
@@ -121,8 +123,8 @@ text-shadow: 2px 2px 5px #33cc66;
     text-shadow: 2px 2px 5px white;
 }
 
-.section{
-    padding: 100px 0;
+section{
+    padding: 45px 0px 0px 0px;
 }
 
 section h2 {
